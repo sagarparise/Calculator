@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d6ccc2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator {
+  width: 300px;
+  height: 420px;
+  padding: 15px;
+  color: #000000;
+  border: 1px solid #d6ccc2;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 5px #5552524b;
+}
+.display {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #b0b1b462;
+  border-radius: 20px;
+  background-color: #a3b18afd;
+  box-shadow: 10px 10px 15px #2724245a inset;
+  overflow: hidden;
+}
+.display > input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  padding-right: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  text-align: end;
+  text-align: right;
+}
+.btn-container {
+ 
+  width: 100%;
+  padding: 10px 0px;
+  height: calc(100% - 60px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+
+ 
+}
+.btns {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e5e2e29e;
+  border-radius: 50%;
+  box-shadow: 4px 5px 15px #d5d3d3ca, inset 5px 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.612);
+}
+.equal{
+  width: 100px;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color:#0ead69;
+  box-shadow: 4px 5px 15px #d5d3d3ca, inset 3px 5px 10px rgba(0, 0, 0, 0.351);
+}
+.AC{
+  width: 100px;
+ background-color:#ef233c;
+ color: #fff;
+ border-radius: 30px;
+  font-size: 16px;
+  box-shadow: 4px 5px 15px #d5d3d3ca, inset 3px 5px 10px rgba(0, 0, 0, 0.351);
+
+}
+
+.DEL{
+  background-color: #00b4d8 ;
+  width: 70px;
+  color:  #ffffff ;
+  box-shadow: 3px 5px 15px #9b9393ca, inset 3px 5px 10px rgba(0, 0, 0, 0.351);
+  border-radius: 30px;
+  font-size: 16px;
+}
+
